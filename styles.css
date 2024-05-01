@@ -16,10 +16,12 @@ input[type=text]:focus {
 
 .todos li {
     background: #423a6f;
-    color: #fff;
-    border-color: #352f5b;
 }
 
 .delete {
     cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
 }
